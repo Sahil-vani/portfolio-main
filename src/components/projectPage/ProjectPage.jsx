@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProjectPage.scss";
+import "./projectPage.scss";
 import StyleUp from "../../assets/projects/styleUp.png";
 import ContextAPI from "../../assets/projects/contextAPI.png";
 import CurrencyConverter from "../../assets/projects/currencyConverter.png";
