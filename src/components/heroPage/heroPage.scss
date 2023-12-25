@@ -1,0 +1,156 @@
+.heroSection {
+  height: fit-content;
+  width: 100vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  // overflow: hidden;
+  position: relative;
+
+  .left {
+    height: 80%;
+    width: 75vmin;
+    margin: 3vmin 1vmax;
+    padding: 3vh 1vw;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    // overflow: visible;
+
+    .heading {
+      padding-bottom: 2vh;
+      .heroHeading {
+        font-size: 10vmin;
+        font-family: "mulish", sans-serif;
+        font-weight: 600;
+        letter-spacing: -0.692px;
+        line-height: 1.1;
+        color: transparent;
+        background-image: radial-gradient(
+          circle,
+          #e63323,
+          #ec521e,
+          #f16b1c,
+          #f4821d,
+          #f79723,
+          #fe8d3e,
+          #ff8554,
+          #ff7f68,
+          #ef6a8f,
+          #c568b0,
+          #836ec0,
+          #1d71b8
+        );
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        // text-shadow: -1px -1px 5px #555;
+        // -webkit-text-stroke-width: 0.07vh;
+        // -webkit-text-stroke-color: black;
+        // -webkit-text-stroke-color: #555;
+      }
+
+      .wavingHand {
+        width: 4vmax;
+      }
+    }
+
+    .subHeading {
+      width: 79vmin;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      .heroSubHeading {
+        font-size: 1.475vmax;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: -0.438px;
+        text-align: center;
+
+        color: transparent;
+        text-shadow: -1px -1px 0.09vh #f2f2f2;
+      }
+    }
+
+    .overlap {
+      height: 13vmax;
+      width: 85vw;
+      padding: 3vmax;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      flex-wrap: wrap;
+
+      .sepration {
+        margin: 0 1vw;
+      }
+      .html {
+        color: #dd4b24;
+      }
+
+      .css {
+        color: #2194f0;
+      }
+
+      .tailwind {
+        color: #00ffff;
+      }
+
+      .sass {
+        color: #c76395;
+      }
+
+      .js {
+        color: #ffff00;
+      }
+
+      .node {
+        color: #509941;
+      }
+
+      .react {
+        color: #00ffff;
+      }
+
+      .github {
+        background: #f7f7f7;
+        border-radius: 2px;
+      }
+
+      .starIconOne {
+        width: auto;
+        height: 4vmax;
+        margin: 0.5vh;
+      }
+      .starIconTwo {
+        width: auto;
+        height: 4vmax;
+        margin: 0.5vh;
+      }
+    }
+  }
+
+  .heroImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20.5vmin 2vmin 6vw;
+    // background-image: url(../../assets/instabg.jpg);
+    background-color: #086ce6;
+    width: 77vmin;
+    height: 35.5vmax;
+    overflow: hidden;
+    border-radius: 15px;
+    img {
+      // object-position: cover;
+      transform: translateY(14%);
+      width: 88vmin;
+      // height: 35vmax;
+    }
+  }
+}

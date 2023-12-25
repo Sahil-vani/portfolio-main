@@ -1,0 +1,36 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+  .contentHeading {
+    margin: 11vh 0 5vmin 0;
+    color: transparent;
+    font-size: 4vmax;
+    font-weight: 600;
+    background-image: radial-gradient(
+      circle,
+      #e83929,
+      #ec521e,
+      #f16b1c,
+      #f4821d,
+      #f79723,
+      #ff9244,
+      #ff8554,
+      #ff7f68,
+      #ef6a8f,
+      #c568b0,
+      #836ec0,
+      #1d71b8
+    );
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    // text-shadow: 0px 0px 4px #fafafa50;
+    // text-shadow: 1px 1px 4px #fafafa;
+    // -webkit-text-stroke-width: 0.07vh;
+    // -webkit-text-stroke-color: black;
+    // -webkit-text-stroke-color: #ffffff;
+  }
+}

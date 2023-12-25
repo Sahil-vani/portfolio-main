@@ -1,0 +1,31 @@
+.footer {
+  background-color: #fff;
+  color: #2b2e3a;
+  width: 100vw;
+  height: 5.5vmax;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.45vmax;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.438px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  .gmail {
+    margin: auto 2vh;
+    text-shadow: 0 0 6px #55555570;
+  }
+
+  .socialMedia {
+    a {
+      text-decoration: none;
+      color: #2b2e3a;
+    }
+    .app {
+      filter: drop-shadow(0 0 6px #55555590);
+      width: auto;
+      height: 3.3vmax;
+      margin: 1vmax 1.5vh;
+    }
+  }
+}
