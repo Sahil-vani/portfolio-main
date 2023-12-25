@@ -1,7 +1,6 @@
 import React from "react";
 import Wave from "../../assets/waving.png";
 import Sahil from "../../assets/sahil.png";
-import { IoIosArrowDown } from "react-icons/io";
 import "./heroPage.scss";
 import { IoLogoHtml5 } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io";
