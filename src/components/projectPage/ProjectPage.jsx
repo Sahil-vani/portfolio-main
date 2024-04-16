@@ -1,5 +1,6 @@
 import React from "react";
 import "./projectPage.scss";
+
 import StyleUp from "../../assets/projects/styleUp.png";
 import ContextAPI from "../../assets/projects/contextAPI.png";
 import CurrencyConverter from "../../assets/projects/currencyConverter.png";
@@ -10,6 +11,9 @@ import Movix from "../../assets/projects/movix.png";
 import Sushiman from "../../assets/projects/sushiman.png";
 import MegaProject from "../../assets/projects/mega-project.png";
 import EasyBlog from "../../assets/projects/easy-blog(1).png";
+import Contacts from "../../assets/projects/contactsLibrary.png";
+
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 function ProjectPage() {
   const ShortImage = [
@@ -24,6 +28,13 @@ function ProjectPage() {
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore corporis fugiat distinctio tempora sint doloremque repudiandae cumque nostrum possimus inventore architecto!",
       image: ToDo,
+    },
+    {
+      name: "Contact Library",
+      description:
+        "For the development of this website, I used Vite for the frontend as well as Appwrite for the backend. Through YouTube, I was able to create this blog application titled as Chai aur code. This website taught me how to make production-grade applications, authentication, an industry standard for web applications, and many other things.",
+      image: Contacts,
+      link: "https://contacts-library.vercel.app/",
     },
     {
       name: "Password Generator",
@@ -100,6 +111,9 @@ function ProjectPage() {
               <div className="details">
                 <h3> {image.name}</h3>
                 <p>{image.description}</p>
+                <p className="visitLink">
+                  Click to visit <MdOutlineArrowOutward />
+                </p>
               </div>
             </div>
           </a>

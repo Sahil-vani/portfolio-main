@@ -32,9 +32,8 @@ function AboutPage() {
             in web development grow stronger💪.
           </p>
           <p>
-            Today, I am a MERN stack developer 🧑‍💻 specializing in frontend
-            development. As a web developer, I'm always learning 📖 new
-            technologies and honing my skills.
+            Today, I am a MERN stack developer 🧑‍💻. As a web developer, I'm
+            always learning 📖 new technologies and honing my skills.
           </p>
           <p>
             I have experience with HTML5 <IoLogoHtml5 />, CSS <IoLogoCss3 />,

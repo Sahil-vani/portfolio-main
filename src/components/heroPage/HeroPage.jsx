@@ -24,8 +24,8 @@ function HeroPage() {
 
         <div className="subHeading">
           <h2 className="heroSubHeading">
-            A front-end developer passionate about learning and making a
-            difference. My experience includes React and Redux web applications.
+            A MERN developer passionate about learning and making a difference.
+            My experience includes React and Express web applications.
           </h2>
         </div>
         <div className="overlap">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./navbar.scss";
 import { RxDotFilled } from "react-icons/rx";
 import { FaArrowRight } from "react-icons/fa6";
@@ -7,6 +7,8 @@ import { TiThMenu } from "react-icons/ti";
 
 function Navbar() {
   let menuButton, menuClass;
+  const menuRef = useRef();
+
   const menuOption = [
     {
       name: "HOME",
@@ -29,7 +31,9 @@ function Navbar() {
       href: "#contact",
     },
   ];
+
   const [active, setActive] = useState(false);
+
   if (!active) {
     menuClass = "display";
     menuButton = "menuButton";
@@ -37,6 +41,20 @@ function Navbar() {
     menuClass = "option";
     menuButton = "menuButton rotate";
   }
+
+  useEffect(() => {
+    let menuHandler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setActive(false);
+      }
+    };
+
+    document.addEventListener("mousedown", menuHandler);
+
+    return () => {
+      document.removeEventListener("mousedown", menuHandler);
+    };
+  }, []);
 
   return (
     <nav className="navbar">
@@ -59,7 +77,7 @@ function Navbar() {
           <TiThMenu className="menu" />
         </button>
       </div>
-      <div className={menuClass}>
+      <div className={menuClass} ref={menuRef}>
         <ul className="menuList">
           {menuOption.map((item) => (
             <a href={item.href} className={item.className} key={item.name}>
@@ -68,7 +86,7 @@ function Navbar() {
           ))}
         </ul>
         <a
-          href="https://drive.google.com/file/d/1h6QZpL2q0-hP2pfjuiSHWkPKMLscszl2/view?usp=sharing"
+          href="https://drive.google.com/file/d/1jIaItL8MLk4wC2umNs0xh6CiUUPbIUHL/view?usp=sharing"
           className="resume"
           target="_blank"
           rel="noopener noreferrer"
