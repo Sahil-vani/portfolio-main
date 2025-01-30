@@ -1,6 +1,10 @@
 import React from "react";
 import Wave from "../../assets/waving.png";
+<<<<<<< HEAD
 import Sahil from "../../assets/sahil.jpg";
+=======
+import Sahil from "../../assets/sahil.png";
+>>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
 import "./heroPage.scss";
 import { IoLogoHtml5 } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io";
@@ -24,8 +28,13 @@ function HeroPage() {
 
         <div className="subHeading">
           <h2 className="heroSubHeading">
+<<<<<<< HEAD
             A front-end developer passionate about learning and making a
             difference. My experience includes React and Redux web applications.
+=======
+            A MERN developer passionate about learning and making a difference.
+            My experience includes React and Express web applications.
+>>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
           </h2>
         </div>
         <div className="overlap">

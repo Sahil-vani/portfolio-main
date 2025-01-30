@@ -7,13 +7,21 @@ import "./app.scss";
 
 function App() {
   return (
+<<<<<<< HEAD
     <main className="main">
+=======
+    <div className="main">
+>>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
       <Navbar />
       <HeroPage />
       <AboutPage />
       <ProjectPage />
       <Footer />
+<<<<<<< HEAD
     </main>
+=======
+    </div>
+>>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
   );
 }
 
