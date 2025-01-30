@@ -7,11 +7,7 @@ function Footer() {
   return (
     <section id="contact" className="footer">
       <div className="gmail">
-<<<<<<< HEAD
         <h4>sahilvani07@gmail.com</h4>
-=======
-        <h4>sahilvani007@gmail.com</h4>
->>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
       </div>
       <div className="socialMedia">
         {/* <BsLinkedin /> */}

@@ -3,17 +3,12 @@
   width: 100vw;
   display: flex;
   align-items: end;
-<<<<<<< HEAD
   justify-content: end;
-=======
-  justify-content: center;
->>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
   flex-wrap: wrap-reverse;
   // overflow: hidden;
   position: relative;
 
   .left {
-<<<<<<< HEAD
     height: 100%;
     width: 93vmin;
     margin: 3vmin 1vmax;
@@ -23,29 +18,13 @@
     justify-content: end;
     flex-direction: column;
     // position: relative;
-=======
-    height: 80%;
-    width: 75vmin;
-    margin: 3vmin 1vmax;
-    // padding: 3vh 1vw;
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative;
-    // overflow: visible;
->>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
 
     .heading {
       padding-bottom: 2vh;
       .heroHeading {
         font-size: 10vmin;
         font-family: "mulish", sans-serif;
-<<<<<<< HEAD
         font-weight: 700;
-=======
-        font-weight: 600;
->>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
         letter-spacing: -0.692px;
         line-height: 1.1;
         color: transparent;
@@ -98,7 +77,6 @@
     }
 
     .overlap {
-<<<<<<< HEAD
       height: fit-content;
       width: 100%;
       padding: 6vmin 0 0;
@@ -109,18 +87,6 @@
 
       .sepration {
         margin: 0 0.3vw;
-=======
-      height: 13vmax;
-      width: 85vw;
-      padding: 3vmax;
-      display: flex;
-      align-items: center;
-      justify-content: end;
-      flex-wrap: wrap;
-
-      .sepration {
-        margin: 0 1vw;
->>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
       }
       .html {
         color: #dd4b24;
@@ -172,7 +138,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     margin: 20.5vmin 10vmin 6vmin;
     // margin: 20.5vmin 2vmin 6vw;
     // background-image: url(../../assets/instabg.jpg);
@@ -185,24 +150,10 @@
       // object-position: cover;
       // transform: translateY(14%);
       width: 80vmin;
-=======
-    margin: 20.5vmin 2vmin 6vw;
-    // background-image: url(../../assets/instabg.jpg);
-    background-color: #086ce6;
-    width: 77vmin;
-    height: 35.5vmax;
-    overflow: hidden;
-    border-radius: 15px;
-    img {
-      // object-position: cover;
-      transform: translateY(14%);
-      width: 88vmin;
->>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
       // height: 35vmax;
     }
   }
 }
-<<<<<<< HEAD
 
 @media only screen and (max-width: 768px) {
   .heroSection {
@@ -235,5 +186,3 @@
     height: 6vmax;
   }
 }
-=======
->>>>>>> 654ef392ec8b0df5b9970a80d3f7e7b96d2e8bc3
